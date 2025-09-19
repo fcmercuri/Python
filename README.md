@@ -1,2 +1,2 @@
 # Python
-Main script to utilise for coding 
+Main scripts to utilise for coding 
