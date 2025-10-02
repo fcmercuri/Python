@@ -7,6 +7,6 @@ def whichCake(ingredient, base):
   print("I don't know that ingredient")
  print("so you want", ingredient, "cake on a", base)
 
-userIngredient = input("ingredient?")
-userBase = input("base?")
+userIngredient = input("ingredient? ")
+userBase = input("base? ")
 whichCake(userIngredient, userBase)
