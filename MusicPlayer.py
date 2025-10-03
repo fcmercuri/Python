@@ -23,4 +23,5 @@ while True:
         print()
         break
     else:
-        print("Invalid option. Here's the menu again: ")
+        os.system("clear")
+        continue
