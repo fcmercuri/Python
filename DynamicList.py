@@ -11,5 +11,8 @@ while True:
     myAgenda.append(item)
   elif menu == "remove":
     item = input("Item to remove: ")
-    myAgenda.remove(item)
+    if item in myAgenda:
+      item.remove(myAgenda)
+    else:
+      print("Item not found")
   printList()
