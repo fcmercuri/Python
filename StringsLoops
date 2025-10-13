@@ -1,0 +1,7 @@
+myString = input("Type in a string: ")
+for letter in myString:
+    print(letter)
+
+myString2 = ["apple", "banana", "cherry"]
+for elenco in myString2:
+    print(elenco)
