@@ -7,3 +7,13 @@ for name, metric in myDictionary.items():
       print("This is a new car")
     else:
       print("This is an old car")
+
+
+car = { "brand": None, "model": None, "year": None }
+
+for name, value in car.items():
+  car[name] = input(f"Enter car {name}: ")
+
+  print()
+  for name, value in car.items():
+    print(f"Car {name} is {value}")
